@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Student Profile Management System
 
 Next.js App Router + TypeScript implementation for **UQ25CA752A – WAF-II Experiential Learning – Unit-4, Project 2**.
@@ -50,3 +51,6 @@ For the PESU Academy submission, capture screenshots showing:
 - Search with matching results.
 - Search with no matches.
 - Successful Vercel production URL.
+=======
+# PES2UG24CA036-BHAVANA-M
+>>>>>>> bf2b30c050db9f8833ddfbcbfd6887c352b329cd
