@@ -1,56 +1,28 @@
-<<<<<<< HEAD
 # Student Profile Management System
 
-Next.js App Router + TypeScript implementation for **UQ25CA752A – WAF-II Experiential Learning – Unit-4, Project 2**.
+The **Student Profile Management System** is a Next.js web application for managing student records using React. It provides basic **CRUD operations** such as adding, editing, deleting, and searching student profiles. Student data is maintained in React state on the client side, so the data resets when the page is refreshed.
 
-## Assessed core concepts
+## How to Run
 
-1. `useState` – stores students, form data, search text and editing state.
-2. Forms – controlled inputs with client-side validation.
-3. CRUD – add, list, edit and delete student records in React state.
-
-## Expected behavior
-
-- Add a student without reloading the page.
-- Edit only the selected student.
-- Delete only the selected student.
-- Search by student name, SRN/ID or course.
-- Display `No students found.` when the search has no matches.
-- Records intentionally reset after a browser refresh because the assignment specifies client-side state for this project.
-
-## Run locally
-
-Requires Node.js 18.17+.
+Make sure **Node.js** is installed. Open the project folder in a terminal and run:
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open `http://localhost:3000/students`.
+Then open **http://localhost:3000** in your browser. Navigate to the Student Profiles page to add, edit, delete, and search student records.
 
-## Production build
+## Technologies
 
-```bash
-npm run build
-npm start
-```
+- Next.js
+- React
+- TypeScript
+- CSS Modules
+- React `useState`
+- Client-side CRUD operations
 
-## Vercel deployment
+## Project
 
-Push this project to GitHub, import the repository into Vercel, keep the Next.js framework preset, deploy, and test the production URL. This project does not require production environment variables.
-
-## Submission evidence
-
-For the PESU Academy submission, capture screenshots showing:
-
-- Student Profiles page.
-- Add operation.
-- Edit operation.
-- Delete operation.
-- Search with matching results.
-- Search with no matches.
-- Successful Vercel production URL.
-=======
-# PES2UG24CA036-BHAVANA-M
->>>>>>> bf2b30c050db9f8833ddfbcbfd6887c352b329cd
+**Student:** BHAVANA M  
+**SRN:** PES1PG25CA036
