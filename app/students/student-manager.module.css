@@ -1,0 +1,242 @@
+.page {
+  min-height: 100vh;
+  padding: 44px 24px;
+  background: linear-gradient(180deg, #f7faff 0%, #eef4fb 100%);
+}
+
+.card {
+  max-width: 1050px;
+  margin: 0 auto;
+  background: #fff;
+  border: 2px solid #2f74d0;
+  border-radius: 14px;
+  padding: 28px;
+  box-shadow: 0 10px 30px rgba(24, 65, 110, 0.08);
+}
+
+.headingRow,
+.sectionHeader,
+.formActions,
+.searchArea {
+  display: flex;
+  align-items: center;
+}
+
+.headingRow {
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.projectLabel {
+  font-size: 13px;
+  font-weight: 700;
+  color: #315f94;
+}
+
+/* CSS Module-safe selectors */
+.card h1 {
+  margin: 5px 0 18px;
+  font-size: 30px;
+  color: #194f8b;
+}
+
+.card h2 {
+  margin: 0;
+  font-size: 19px;
+  color: #1e4f87;
+}
+
+.badge {
+  background: #e9f2ff;
+  color: #1e5a9d;
+  padding: 7px 11px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.sectionHeader {
+  justify-content: space-between;
+  border-top: 1px solid #dbe5f0;
+  border-bottom: 1px solid #dbe5f0;
+  padding: 16px 0;
+}
+
+.addButton,
+.primaryButton {
+  border: 0;
+  background: #1f66b3;
+  color: white;
+  font-weight: 700;
+  border-radius: 7px;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.addButton:hover,
+.primaryButton:hover {
+  background: #174f8d;
+}
+
+.form {
+  padding: 20px 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.card label {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  color: #294b6f;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.card input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #b8c9dc;
+  border-radius: 6px;
+  padding: 10px 11px;
+  outline: none;
+  color: #193654;
+  background: #fff;
+}
+
+.card input:focus {
+  border-color: #2d75c9;
+  box-shadow: 0 0 0 3px rgba(45, 117, 201, 0.12);
+}
+
+.formActions {
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.secondaryButton {
+  border: 1px solid #9db0c6;
+  background: white;
+  color: #294b6f;
+  border-radius: 7px;
+  padding: 9px 15px;
+  cursor: pointer;
+}
+
+.error {
+  color: #a52828;
+  background: #fff1f1;
+  border: 1px solid #e7b2b2;
+  border-radius: 6px;
+  padding: 9px 11px;
+  margin: 14px 0 0;
+}
+
+.searchArea {
+  gap: 12px;
+  margin: 22px 0 14px;
+}
+
+.searchArea label {
+  flex-direction: row;
+  align-items: center;
+  min-width: 58px;
+}
+
+.tableWrap {
+  overflow-x: auto;
+  border: 1px solid #cfdae7;
+  border-radius: 8px;
+}
+
+.card table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.card th,
+.card td {
+  padding: 13px 14px;
+  text-align: left;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.card th {
+  background: #eaf2fb;
+  color: #244f7d;
+  font-size: 13px;
+}
+
+.card td {
+  color: #273f59;
+  font-size: 14px;
+}
+
+.card tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.linkButton,
+.deleteButton {
+  border: 0;
+  background: transparent;
+  font-weight: 700;
+  padding: 4px 0;
+  cursor: pointer;
+}
+
+.linkButton {
+  color: #1663aa;
+}
+
+.deleteButton {
+  color: #b32929;
+}
+
+.empty {
+  text-align: center;
+  padding: 24px;
+  color: #687b90;
+}
+
+.note {
+  margin: 16px 0 0;
+  color: #65788e;
+  font-size: 12px;
+}
+
+@media (max-width: 760px) {
+  .page {
+    padding: 20px 12px;
+  }
+
+  .card {
+    padding: 18px;
+  }
+
+  .headingRow {
+    align-items: flex-start;
+  }
+
+  .badge {
+    display: none;
+  }
+
+  .formGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .searchArea {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .searchArea label {
+    min-width: auto;
+  }
+}
